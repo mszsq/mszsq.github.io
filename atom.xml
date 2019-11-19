@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://mszsq.github.io</id>
     <title>-ZSQ-</title>
-    <updated>2019-11-19T12:50:57.431Z</updated>
+    <updated>2019-11-19T13:36:25.906Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://mszsq.github.io"/>
     <link rel="self" href="https://mszsq.github.io/atom.xml"/>
@@ -10,4 +10,20 @@
     <logo>https://mszsq.github.io/images/avatar.png</logo>
     <icon>https://mszsq.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, -ZSQ-</rights>
+    <entry>
+        <title type="html"><![CDATA[#深夜食堂#博客是跟自己聊天]]></title>
+        <id>https://mszsq.github.io/post/elseqi-ta-mou-shi</id>
+        <link href="https://mszsq.github.io/post/elseqi-ta-mou-shi">
+        </link>
+        <updated>2019-11-18T15:34:18.000Z</updated>
+        <summary type="html"><![CDATA[<p>打算开始写博客，第一件事需要感谢<strong>Gridea</strong>的开发者和各主题创作者，你们的努力让建博客这件事变得简单愉快，支持你们，希望<strong>Gridea</strong>越做越好。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>打算开始写博客，第一件事需要感谢<strong>Gridea</strong>的开发者和各主题创作者，你们的努力让建博客这件事变得简单愉快，支持你们，希望<strong>Gridea</strong>越做越好。</p>
+<!-- more -->
+<h2 id="正文">正文</h2>
+<p>用了几天时间我这个电脑盲也终于建好了自己的博客，据说<strong>githud</strong>访问比较慢，但是对于我来说正好，在互联网这个嘈嚷的环境下，能有个属于自己的偏僻小窝是件幸福的事情。</p>
+<p>近三十年混混沌沌的过日子，有着各式的缺点，所幸大家宽容，家人对我都好。可是人生的挑战越来越多，周围人的优秀我望尘莫及，渐渐觉得吃力却不敢承认，心里隐隐的明白，不能再挥霍时间了。父母老去，逐渐开始依赖儿女，也渴望能同住享一享天伦，身上也开始有甜蜜的责任，不论为了谁，都需要好好真正的努力了。</p>
+<p>所以开了这个博客，自说自话的理一理生活琐事，主要记录下自己的学习、求职进展，偶尔记一记生活感受。希望能在这坦然面对自己，跟真正的自己聊聊天，自毁也好，不堪也罢，无论日子过成什么鬼样，都是我绝无仅有的人生。</p>
+]]></content>
+    </entry>
 </feed>
