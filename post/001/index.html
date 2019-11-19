@@ -31,29 +31,9 @@
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            逝者如斯，不舍昼夜
+            文章目录
           </p>
-          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
+          <div class="toc-container hidden lg:block">
             
           </div>
         </div>
@@ -98,56 +78,65 @@
 </div>
 <div class="mask" onclick="closeMenu()">
 </div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
-        <h2 class="text-lg text-gray-700 mb-8">
-          <i class="remixicon-archive-line"></i> 文章归档
-        </h2>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
+        <h1 class="text-3xl font-bold lg:mt-16">001</h1>
+        <div class="text-sm text-gray-700 lg:my-8">
+          2019-11-19 / 1 min read
+        </div>
+        
+          <img class="post-feature-image rounded-lg mx-auto my-4" src="https://mszsq.github.io/post-images/001.gif" alt="">
+        
+        <div class="post-content yue">
+          <p>00</p>
+
+        </div>
+
         
 
-        <div class="archives-container">
+
+        <div class="flex justify-between py-8">
           
-            <h2 class="text-gray-600 py-4 animated fadeIn">
-              <i class="remixicon-map-pin-time-line"></i>
-              2019
-            </h2>
-            
-              
-                <a href="https://mszsq.github.io/post/001" class="post">
-                  <h2 class="inline-block font-bold text-lg post-title animated fadeIn">
-                    001
-                  </h2>
-                </a>
-                <div class="text-sm font-light mt-3 mb-6 text-gray-400 animated fadeInDown" style="animation-delay: 0.4s">2019-11-19</div>
-              
-            
-              
-                <a href="https://mszsq.github.io/post/elseqi-ta-mou-shi" class="post">
-                  <h2 class="inline-block font-bold text-lg post-title animated fadeIn">
-                    #深夜食堂#鸽子汤米线
-                  </h2>
-                </a>
-                <div class="text-sm font-light mt-3 mb-6 text-gray-400 animated fadeInDown" style="animation-delay: 0.4s">2019-11-18</div>
-              
-            
-              
-                <a href="https://mszsq.github.io/post/diary" class="post">
-                  <h2 class="inline-block font-bold text-lg post-title animated fadeIn">
-                    #DIARY#生活琐事
-                  </h2>
-                </a>
-                <div class="text-sm font-light mt-3 mb-6 text-gray-400 animated fadeInDown" style="animation-delay: 0.4s">2019-11-18</div>
-              
-            
+
+          
+            <div class="next-post">
+              <a href="https://mszsq.github.io/post/elseqi-ta-mou-shi">
+                <h3 class="post-title">
+                  #深夜食堂#鸽子汤米线
+                  <i class="remixicon-arrow-right-line"></i>
+                </h3>
+              </a>
+            </div>
           
         </div>
 
-        <div>
-          <div class="pagination-container animated fadeIn">
-  
-  
-</div>
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
 
-        </div>
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'bdef0d5dd81c1f705683',
+    clientSecret: 'fbd84246ad138abea55cfe119f2e0bf3eceee92e',
+    repo: 'mszsq.github.io',
+    owner: 'mszsq',
+    admin: ['mszsq'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
       </div>
     </div>
 
